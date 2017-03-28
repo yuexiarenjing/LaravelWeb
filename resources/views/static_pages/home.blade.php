@@ -2,12 +2,18 @@
 
 @section('content')
   <div class="jumbotron">
-    <h1>Hello Laravel</h1>
+    <h1>实验室信息</h1>
     <p class="lead">
-      This is the home page of Learn Laravel
+      网络账号：
+      tj821215(dcc_lab) \ tj796759(dcc_lite) 
+    </p>
+    <p class="lead">
+      密码：
+      195681\957697
+
     </p>
     <p>
-      Everything start from here!
+      ftp：在资源浏览器中输入\\192.168.3.1，打开share文件夹，账号/密码：fit508/fit508
     </p>
     <p>
       <!-- 注册按钮 -->

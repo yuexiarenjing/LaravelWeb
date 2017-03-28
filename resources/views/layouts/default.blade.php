@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', 'Myweb') - Learn Laravel</title>
+    <title>@yield('title', 'fit508') - dcclab</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
