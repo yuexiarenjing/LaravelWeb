@@ -9,6 +9,8 @@ use App\Http\Controllers\Controller;
 
 use App\Models\User;
 
+use Auth;
+
 class UsersController extends Controller
 {
     public function create()
@@ -36,6 +38,7 @@ class UsersController extends Controller
             'password' => $request->password,
         ]);
 
+        Auth::login($user);
         session()->flash('success', 'Welcome! You have registered successfully!');
         return redirect()->route('users.show', [$user]);
     }
